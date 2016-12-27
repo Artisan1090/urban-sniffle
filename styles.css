@@ -1,0 +1,22 @@
+p { 
+    background-color: yellow;
+    text-decoration: line-through;
+    text-shadow: inherit;
+    color: red;
+}
+
+h1 {
+    color: blue;
+    text-decoration: underline
+    font-size: 44px;
+}
+
+ul li {
+    background-color: red;
+    color: green;
+    font-size: 66px;
+}
+
+a:hover {
+    color:green;
+}
