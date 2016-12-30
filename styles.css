@@ -49,12 +49,6 @@ ol li:first-child {
     color: darkred;
 }
 
-.MenuID li {
-    display:inline;
-    font-size:16px;
-    padding: 0px 16px 0px 0px;
-}
-
 ul li {
     background-color: white;
     color: #424242;
@@ -62,14 +56,61 @@ ul li {
     line-height: 24px;
 }
 
+a {
+    color: #F39810;
+}
+
+a:hover {
+    color:#F36310;
+}
+
+.mainContent {
+    width:450px;
+    border: 1px solid #CCCCCC;
+    padding: 14px;
+    margin: 0px auto 0px auto;
+}
+
+.MenuID {
+    width:450px;
+    padding: 14px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    background-color: #8FC0B3;
+}
+
+.MenuID li {
+    display:inline;
+    font-size:16px;
+    padding: 0px 16px 0px 0px;
+    background-color: transparent;
+}
+
+.MenuID a {
+    color:white;
+    text-decoration: none;
+}
+
 .optionID li:first-child {
     color:darkblue;
 }
 
-a:hover {
-    color:#8FC0B3;
-}
-
 .linkSpace a {
     line-height: 24px;
+}
+
+.introArea {
+    padding: 0px 0px 0px 30px;
+}
+
+.imgBlock {
+    margin: 20px 0px 0px 0px;
+    list-style-type: none;
+    padding: 0px
+    
+}
+
+.imgBlock li {
+    display: inline;
+    padding-left: 9px;
 }
