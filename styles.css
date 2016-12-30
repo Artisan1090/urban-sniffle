@@ -1,22 +1,75 @@
+/* Reset to 0 for all browsers default style sheet */
+
+/* html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0px;
+    border: 0px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px;
+} */
+
 p { 
-    background-color: yellow;
-    text-decoration: line-through;
+    background-color: white;
+    /* text-decoration: line-through; */
     text-shadow: inherit;
-    color: red;
+    color: #424242;
+    line-height: 24px;
 }
 
 h1 {
-    color: blue;
-    text-decoration: underline
-    font-size: 44px;
+    color: #8FC0B3;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: -10px;
+    padding-bottom:3px;
+    border-bottom: 1px solid #CBE3DD;
+}
+
+h2 {
+    color:#8FC0B3;
+    font-size: 24px;
+    margin-bottom: -10px;
+    border-bottom: 1px solid #CBE3DD;
+}
+
+ol {
+    padding: 0px 0px 0px 50px;
+}
+
+ul {
+    padding: 0px 0px 0px 50px;
+}
+
+ol li {
+    line-height: 24px;
+    color: #424242;
+    /* display:inline; */
+}
+
+ol li:first-child {
+    color: darkred;
+}
+
+.MenuID li {
+    display:inline;
+    font-size:16px;
+    padding: 0px 16px 0px 0px;
 }
 
 ul li {
-    background-color: red;
-    color: green;
-    font-size: 66px;
+    background-color: white;
+    color: #424242;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.optionID li:first-child {
+    color:darkblue;
 }
 
 a:hover {
-    color:green;
+    color:#8FC0B3;
+}
+
+.linkSpace a {
+    line-height: 24px;
 }
