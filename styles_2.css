@@ -1,0 +1,54 @@
+/* Reset to 0 for all browsers default style sheet */
+
+.mountain {
+    border: 5px solid #666666;
+    background-color: #348912;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 100px;
+    position: relative;
+}
+
+.mountain2 {
+    border: 5px solid #666666;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 100px;
+    overflow: auto;
+    position: absolute;
+    top:20px;
+    right: 40px;
+}
+
+.mountain3 {
+    border: 5px solid #666666;
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 100px;
+    overflow: hidden;
+    position: fixed;
+    right: 10px;
+    top:10px;
+}
+
+.mountain4 {
+    border: 5px solid #666666;
+    background-color: #348912;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 100px;
+}
+
+.mountain5 {
+    border: 5px solid #666666;
+    background-color: #348912;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 100px;
+}
+
+.imageNew .imageOld {
+    z-index: 1;
+}

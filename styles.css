@@ -114,3 +114,23 @@ a:hover {
     display: inline;
     padding-left: 9px;
 }
+
+.Position1 {
+    position: absolute;
+    left: 30px;
+}
+
+.Position2 {
+    position: relative;
+    left: 30px;
+}
+
+.Position3 {
+    position: static;
+    left: 30px;
+}
+
+.Position4 {
+    position: fixed;
+    left: 30px;
+}
